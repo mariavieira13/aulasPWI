@@ -1,10 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>quitutes da tunica</title>
         <meta charset="utf-8"/>
+        <style>
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color:rgb(155, 229, 229);
+                width: 100%;
+                height:100%;
+                font-family: cursive;
+            }
+            header {
+                position:sticky;
+                top: 0;
+            }
+             a {
+                text-decoration: none;
+            }
+            .topo {
+                background-color:  #ffffff;
+                height: 80px;
+                text-align: center;
+            }
+            .logo {
+                width: 150px;
+                float: left;
+                padding: 5px;
+            }
+            #img-logo {
+                width: 50%;
+            }
+            .título {
+                display: inline-block;
+                margin: 25px auto;
+                color:mediumturquoise;
+            }
+            .barra-topo{
+                height: 20px;
+                background-color:mediumturquoise;
+            }
+            .card{
+                background-color: #ffffff;
+                padding: 25px;
+                margin-top: 15px;
+                margin-left: 100px;
+                margin-right: 100px;
+                border-radius: 15px;
+            }
+            .text-center{
+                text-align: center;
+            }
+
+
+        </style>
     </head>
     <body>
-        
+        <header>
+            <div class="topo">
+                <div class="logo">
+                    <img id="img-logo" src="img/logo.png" alt="logo da página">
+                </div>
+        <h1 class="título">QUITUTES DA TUNICA</h1>
+             </div>
+        </header>
+        <div class="barra-topo"></div>
+
+        <div class="card">
+        <p>Escolha uma opção:</p>
+        <ul>
+            <a href="receitas_doces/index.html"><li>receitas doces</li></a>
+            <a href="receitas_salgadas/index.html"><li>receitas salgadas</li></a>
+        </ul>
+        </div>
+        <div class="card">
+        <h1 class="text-center"> Aqui você encontra as melhores receitas! </h1>
+        <br/>
+
+        <img src="img/animacao.gif">
+        </div>
     </body>
 </html>
